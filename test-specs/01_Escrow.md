@@ -1,0 +1,11 @@
+# Escrow test checklist
+- constructor rejects zero seller or zero price
+- only buyer can fund
+- funding amount must equal price
+- cannot fund twice
+- only buyer can release/refund
+- cannot release before funding
+- seller receives funds
+- buyer receives refund
+- cannot settle twice
+- malicious recipient cannot reenter
